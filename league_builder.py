@@ -23,22 +23,39 @@ def separate_players():
             else:
                 nonexp_players.append(player)
 
-    # TODO Remove the print statements
-    print(nonexp_players[0])
-    print(exp_players[0])
-
     # return the two list of players to be separated in another function
     return nonexp_players, exp_players
 
-def assign_teams(nonexp_players, exp_players):
+def assign_teams():
     # randomly assign players to teams from two separate lists
 
     nonexp_players, exp_players = separate_players()
 
-    sharks = []
     dragons = []
     raptors = []
+    sharks = []
+    teams = [dragons, raptors, sharks]
 
+    num_nonexp = int(len(nonexp_players) / len(teams))
+    num_exp = int(len(exp_players) / len(teams))
+
+    for team in teams:
+        # Assign players from list of non-experienced players
+        # Remove player from list so player choice cannot be duplicated
+        for i in range(num_exp):
+            choice = random.choice(nonexp_players)
+            team.append(choice)
+            nonexp_players.remove(choice)
+
+        # Assign players from list of non-experienced players
+        # Remove player from list so player choice cannot be duplicated
+        for i in range(num_exp):
+            choice = random.choice(exp_players)
+            team.append(choice)
+            exp_players.remove(choice)
+
+    return dragons, raptors, sharks
 
 if __name__ == "__main__":
     separate_players()
+    assign_teams()
