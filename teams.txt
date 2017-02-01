@@ -1,17 +1,26 @@
 Soccer League Teams
 
-Raptors
-M, a, t, t,  , G, i, l, l
-N, O
-C, h, a, r, l, e, s,  , a, n, d,  , S, y, l, v, i, a,  , G, i, l, l
+Sharks
+Arnold Willis, NO, Claire Willis
+Joe Kavalier, NO, Sam and Elaine Kavalier
+Chloe Alaska, NO, David and Jamie Alaska
+Herschel Krustofski, YES, Hyman and Rachel Krustofski
+Bill Bon, YES, Sara and Jenny Bon
+Karl Saygan, YES, Heather Bledsoe
 
 Dragons
-S, a, m, m, y,  , A, d, a, m, s
-N, O
-J, e, f, f,  , A, d, a, m, s
+Ben Finkelstein, NO, Aaron and Jill Finkelstein
+Sammy Adams, NO, Jeff Adams
+Kimmy Stein, NO, Bill and Hillary Stein
+Les Clay, YES, Wynonna Brown
+Phillip Helm, YES, Thomas Helm and Eva Jones
+Diego Soto, YES, Robin and Sarika Soto
 
-Sharks
-E, v, a,  , G, o, r, d, o, n
-N, O
-W, e, n, d, y,  , a, n, d,  , M, i, k, e,  , G, o, r, d, o, n
+Raptors
+Matt Gill, NO, Charles and Sylvia Gill
+Sal Dali, NO, Gala Dali
+Eva Gordon, NO, Wendy and Mike Gordon
+Suzane Greenberg, YES, Henrietta Dumas
+Jill Tanner, YES, Clara Tanner
+Joe Smith, YES, Jim and Jan Smith
 

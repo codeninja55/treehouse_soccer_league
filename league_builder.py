@@ -6,32 +6,30 @@
 import random, csv
 
 def write_teams(teams):
-    team_names = ["Dragons", "Raptors", "Sharks"]
+    team_names = ["dragons", "raptors", "sharks"]
+    edited_teams = [[] for i in range(len(teams))]
+
+    for i in range(len(teams)):
+        for player in teams[i]:
+            # edit the values in the team lists to remove height
+            try:
+                del player['Height (inches)']
+            except KeyError:
+                pass
+
+            # print(player["Height (inches)"])
+            edited_teams[i].append(list(player.values()))
 
     with open('teams.txt', 'w') as file:
         file.write("Soccer League Teams\n\n")
-        for team in teams:
-            team_name = random.choice(team_names)
-            file.write(team_name + "\n")
-            team_names.remove(team_name)
+        for team in edited_teams:
+            file.write(team_names.pop(random.randint(0,2)).capitalize() + "\n")
+
             for player in team:
                 file.write(', '.join(player) + "\n")
 
             file.write("\n")
 
-
-def edit_teams(teams):
-    edited_teams = []
-    # make a nested list of teams
-    for team in teams:
-        for player in team:
-            # edit the values in the team lists to remove height
-            del player['Height (inches)']
-            edited_teams.append(list(player.values()))
-
-    print(edited_teams[0])
-    # return the teams as a packed tuple
-    return edited_teams
 
 def assign_teams():
     # randomly assign players to teams from two separate nested lists
@@ -84,5 +82,4 @@ def separate_players():
 if __name__ == "__main__":
     separate_players()
     teams = assign_teams()
-    edited_teams = edit_teams(teams)
-    write_teams(edited_teams)
+    write_teams(teams)
