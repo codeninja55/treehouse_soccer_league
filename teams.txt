@@ -1,0 +1,17 @@
+Soccer League Teams
+
+Raptors
+M, a, t, t,  , G, i, l, l
+N, O
+C, h, a, r, l, e, s,  , a, n, d,  , S, y, l, v, i, a,  , G, i, l, l
+
+Dragons
+S, a, m, m, y,  , A, d, a, m, s
+N, O
+J, e, f, f,  , A, d, a, m, s
+
+Sharks
+E, v, a,  , G, o, r, d, o, n
+N, O
+W, e, n, d, y,  , a, n, d,  , M, i, k, e,  , G, o, r, d, o, n
+
