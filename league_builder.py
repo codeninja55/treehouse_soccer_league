@@ -5,20 +5,37 @@
 
 import random, csv
 
-# def write_letters(teams):
-#     print(teams)
-#     # TODO iterate over rhe list and for each team and player, write a new txt
-#     # file as letter
-#     for i in range(len(teams)):
-#         for player in teams[i]['players']:
-#             file_name = player['Name'].lower().replace(" ","_") + ".txt"
-#             with open(file_name, 'w') as letter:
-#                 letter.write('Dear {}'.format(player['Guardian Name(s)']))
-#
-#     # TODO use the players name as thw file name with lowercases
-#     # TODO each file begins with text "Dear" followed by guardians names
-#     # TODO include additional information, player's name, team's
-#     # name, and date and time of first practice
+def write_letters(teams):
+    # iterate over list and for ea team and player, write a new txt file as letter
+    for i in range(len(teams)):
+        team_name = teams[i]['team']
+        tr_date = teams[i]['tr_date']
+        tr_time = teams[i]['tr_time']
+
+        for player in teams[i]['players']:
+            # use the players name as the file name with lowercase
+            file_name = player['Name'].lower().replace(" ","_") + ".txt"
+            with open(file_name, 'w') as letter:
+                # each file begins with text "Dear" followed by guardians names
+                letter.write('Dear {},\n\n'.format(player['Guardian Name(s)']))
+                # include additional information, player's name, team's name,
+                # and date and time of first practice
+                letter_content ="""
+Your child {child}, has beed added to the following team ({team})
+for the upcoming League season.
+
+Your child's first training session details are as follows:
+Date: {tr_date}
+Time: {tr_time}
+
+Thank you for your support and we look forward to an enjoyable and fun
+upcoming season with {child}.
+                """.format(child=player['Name'],
+                           team=team_name.capitalize(),
+                           tr_date=tr_date,
+                           tr_time=tr_time)
+
+                letter.write(letter_content)
 
 
 def write_teams(teams):

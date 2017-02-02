@@ -1,26 +1,26 @@
 Soccer League Teams
 
 Dragons
-Sammy Adams, NO, Jeff Adams
+Arnold Willis, NO, Claire Willis
+Eva Gordon, NO, Wendy and Mike Gordon
 Kimmy Stein, NO, Bill and Hillary Stein
-Matt Gill, NO, Charles and Sylvia Gill
+Diego Soto, YES, Robin and Sarika Soto
 Joe Smith, YES, Jim and Jan Smith
+Suzane Greenberg, YES, Henrietta Dumas
+
+Raptors
+Sammy Adams, NO, Jeff Adams
+Chloe Alaska, NO, David and Jamie Alaska
+Sal Dali, NO, Gala Dali
+Jill Tanner, YES, Clara Tanner
 Karl Saygan, YES, Heather Bledsoe
 Phillip Helm, YES, Thomas Helm and Eva Jones
 
-Raptors
-Sal Dali, NO, Gala Dali
+Sharks
+Matt Gill, NO, Charles and Sylvia Gill
 Joe Kavalier, NO, Sam and Elaine Kavalier
-Arnold Willis, NO, Claire Willis
+Ben Finkelstein, NO, Aaron and Jill Finkelstein
 Bill Bon, YES, Sara and Jenny Bon
 Herschel Krustofski, YES, Hyman and Rachel Krustofski
-Diego Soto, YES, Robin and Sarika Soto
-
-Sharks
-Chloe Alaska, NO, David and Jamie Alaska
-Ben Finkelstein, NO, Aaron and Jill Finkelstein
-Eva Gordon, NO, Wendy and Mike Gordon
 Les Clay, YES, Wynonna Brown
-Jill Tanner, YES, Clara Tanner
-Suzane Greenberg, YES, Henrietta Dumas
 
